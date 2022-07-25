@@ -1,17 +1,3 @@
-// import React, { useState, useEffect } from "react";
-
-// function App() {
-//   useEffect(() => {
-//     console.log("useEffect called");
-//   });
-
-//   console.log("Component rendering");
-
-//   return <button>Click Me</button>;
-// }
-
-// export default App;
-
 import React, { useState, useEffect } from "react";
 
 function App() {
@@ -28,11 +14,11 @@ function App() {
 
   console.log("Component rendering");
 
-  return (
+  return ( 
     <div>
       <button onClick={() => setCount((count) => count + 1)}>
         I've been clicked {count} times
-      </button>
+      </button> 
       <input
         type="text"
         placeholder="Type away..."
@@ -42,6 +28,6 @@ function App() {
     </div>
   );
 }
-
+ 
 export default App;
 
